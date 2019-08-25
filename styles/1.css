@@ -1,0 +1,413 @@
+body {
+  background-color: #2e2e30;
+  color: #ffffff;
+  font-family: Roboto;
+  /* line-height: 28px; */
+  height: 2870px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 68px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+  max-width: 1039px;
+  width: 100%;
+}
+
+section {
+  max-width: 1039px;
+  width: 100%;
+  height: 474px;
+  margin: 0px auto;
+  /* display: flex; */
+  /* background-color: tomato; */
+  line-height: 28px;
+}
+
+#a1 {
+  margin-bottom: 180px;
+  /* background-color: red; */
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#a2 {
+  margin-bottom: 36px;
+  /* background-color: blue; */
+  /* display: flex; */
+}
+
+#q1,
+#q2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#q1 {
+  margin-bottom: 52px;
+}
+
+#a3 {
+  display: flex;
+}
+
+.about_me {
+  margin-top: 117px;
+  margin-bottom: 335px;
+  /* height: 234px;
+  width: 454px; */
+  height: 234px;
+  max-width: 1039px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.section2 {
+  width: 274px;
+  height: 210px;
+  /* border: solid 2px yellow; */
+  text-align: center;
+}
+
+.section3 {
+  width: 100%;
+  width: 274px;
+  height: 154px;
+  margin-bottom: 0px;
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio {
+  width: 459px;
+  height: 391px;
+  /* margin-right: 0px; */
+  margin-left: 85px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.Text_name {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  /* width: 454px;
+  height: 65px; */
+  /* align-items: center; */
+}
+
+.Harakteristika {
+  font-size: 20px;
+  color: orange;
+  width: 239px;
+  height: 25px;
+  line-height: 23px;
+  display: flex;
+  /* flex-direction: column; */
+  margin: 45px 0px;
+}
+
+.button {
+  width: 285px;
+  height: 54px;
+  background: linear-gradient(180deg, #f10707 0%, #00ff0a 0.01%, #ffbe00 100%);
+  box-shadow: 0px 0px 20px #00ff0a;
+  border-radius: 15px;
+  border: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button_text {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  color: #2e2e30;
+  text-transform: uppercase;
+}
+
+.Photo {
+  position: absolute;
+  margin-right: 20, 078125%;
+  margin-left: 53%;
+  /* margin-top: 68px; */
+  width: 339px;
+  height: 748px;
+}
+
+.social {
+  width: 71px;
+  height: 13px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vk {
+  width: 14.31px;
+  height: 8.16px;
+}
+
+.facebook {
+  width: 7px;
+  height: 13px;
+}
+
+.zagolovok {
+  width: 100%;
+  /* height: 40px; */
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0px auto 55px auto;
+  /* background-color: orange; */
+}
+
+.zagolovok1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 14px;
+  /* border: solid 2px blue; */
+}
+
+.text {
+  font-size: 18px;
+  text-align: left;
+}
+
+.image_portfolio {
+  width: 495px;
+  height: 372px;
+}
+
+.Text_portfolio1 {
+  width: 459px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 25px;
+  /* margin-bottom: 29px; */
+}
+
+#w1 {
+  width: 185px;
+  height: 67px;
+  display: flex;
+  /* border: solid 2px red; */
+}
+
+#w2 {
+  width: 210px;
+  height: 67px;
+  display: flex;
+  /* border: solid 2px red; */
+  /* margin: -71px 0px 29px 63px; */
+}
+
+#w3 {
+  width: 458px;
+  height: 238px;
+  display: flex;
+  /* border: solid 2px red; */
+}
+
+#w4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 29px 0px;
+}
+
+.w5 {
+  margin-left: 13px;
+  /* border: solid 2px orange; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Text_portfolio2 {
+  width: 73px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Text_portfolio3 {
+  width: 120px;
+  height: 28px;
+  font-size: 18px;
+}
+
+.Text_portfolio4 {
+  /* width: ;
+  height: ; */
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Text_portfolio5 {
+  /* width: ;
+  height: ; */
+  font-size: 18px;
+}
+
+.Text_portfolio6 {
+  /* width: ;
+  height: ; */
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Text_portfolio7 {
+  /* width: ;
+  height: ; */
+  font-size: 18px;
+}
+
+.portfolio_niz {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 183px;
+  /* background-color: yellow; */
+}
+
+/* #a3 {
+  background-color: green;
+} */
+
+.Text {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 11px;
+}
+
+.Text1 {
+  font-size: 18px;    
+}
+
+#c1 {
+  width: 384px;
+  height: 198px;
+  /* display: flex; */
+  /* background-color: blue; */
+}
+
+#c2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+#c3 {
+  display: flex;
+}
+
+.vvod {
+  background-color: #FFBE00;
+  margin-left: 197px;
+  width: 458px;
+  height: 382px;
+  border-radius: 7px;
+}
+
+#phone {
+  width: 140px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mail {
+  width: 101px;
+  height: 67px;
+  right: 0px;
+  justify-content: flex-end;
+  /* margin-left: 143px; */
+  /* margin-right: 0px; */
+}
+
+#soc {
+  width: 100px;
+  height: 67px;
+  margin-bottom: 9px;
+  /* margin-top: 95px;
+  margin-left: 0px; */
+}
+
+.Socseti {
+  width: 147.46px;
+  height: 27px;
+  margin-bottom: 0px;
+}
+
+.vvod_text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  margin: 29px 63px 25px;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+
+.pole {
+  margin: 0px 88px 15px;
+  display: flex;
+  align-items: center;
+  width: 282px;
+  height: 59px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48);
+}
+
+.button2 {
+  background: #000000;
+  border-radius: 15px;
+  width: 282px;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  margin: 30px 88px 0px;
+}
+
+.text_z {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  width: 127px;
+  height: 30px;
+  /* text-align: center; */
+  align-items: center;
+  display: flex;
+}
+
+.name {
+  width: 30px;
+  height: 31px;
+  margin: auto 17px auto 10px;
+}
+
+.tel {
+  width: 35px;
+  height: 35px;
+  margin: auto 13px auto 10px;
+}
+
+.vvod_pole {
+  font-size: 18px;
+  color: #BCB7B7;
+}
