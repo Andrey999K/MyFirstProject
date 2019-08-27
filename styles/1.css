@@ -361,16 +361,16 @@ section {
 .pole_wrap {
   display: flex;
   align-items: center;
+  padding-left: 10px;
   width: 282px;
   height: 59px;
   margin: 0px 88px 15px;
   background: #ffffff;
   border-radius: 7px;
   box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48);
-  background-image: url(images/Name.svg);
 }
 .pole {
-  margin-left: 58px;
+  /* margin-left: 13px; */
   font-size: 18px;
   display: flex;
   align-items: center;
