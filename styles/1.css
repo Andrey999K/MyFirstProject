@@ -345,6 +345,9 @@ section {
   width: 147.46px;
   height: 27px;
   margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .vvod_text {
