@@ -288,7 +288,7 @@ section {
 }
 
 .Text1 {
-  font-size: 18px;    
+  font-size: 18px;
 }
 
 #c1 {
@@ -310,7 +310,7 @@ section {
 }
 
 .vvod {
-  background-color: #FFBE00;
+  background-color: #ffbe00;
   margin-left: 197px;
   width: 458px;
   height: 382px;
@@ -358,16 +358,57 @@ section {
   align-items: center; */
   text-align: center;
 }
-
-.pole {
-  margin: 0px 88px 15px;
+.pole_wrap {
   display: flex;
   align-items: center;
   width: 282px;
   height: 59px;
-  background: #FFFFFF;
+  margin: 0px 88px 15px;
+  background: #ffffff;
   border-radius: 7px;
   box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48);
+  background-image: url(images/Name.svg);
+}
+.pole {
+  margin-left: 58px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  width: 204px;
+  height: 26px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 0px 7px 7px 0px;
+  /* box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48); */
+}
+/* .pole:active {
+  border: none;
+  outline: none;
+} */
+.pole::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #bcb7b7;
+}
+
+.pole:-ms-input-placeholder {
+  font-size: 18px;
+  color: #bcb7b7;
+}
+
+.pole::-ms-input-placeholder {
+  font-size: 18px;
+  color: #bcb7b7;
+}
+
+.pole:-moz-placeholder {
+  font-size: 18px;
+  color: #bcb7b7;
+}
+
+.pole::-moz-placeholder {
+  font-size: 18px;
+  color: #bcb7b7;
 }
 
 .button2 {
@@ -409,5 +450,5 @@ section {
 
 .vvod_pole {
   font-size: 18px;
-  color: #BCB7B7;
+  color: #bcb7b7;
 }
