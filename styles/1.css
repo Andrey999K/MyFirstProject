@@ -10,13 +10,21 @@ body {
 
 header {
   margin: 68px auto 0px;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   /* background-color: blue; */
   max-width: 1039px;
   width: 100%;
+  height: 748px;
+  /* border: solid 2px blue; */
+  background: url(../images/Photo.svg) no-repeat bottom right 136px;
 }
-
+#header_top {
+  width: 100%;
+  /* border: solid 2px yellow; */
+  display: flex;
+  justify-content: space-between;
+}
 section {
   max-width: 1039px;
   width: 100%;
@@ -64,6 +72,7 @@ section {
   max-width: 1039px;
   width: 100%;
   /* background-color: red; */
+  /* border: solid 2px orange; */
 }
 
 .section2 {
@@ -136,9 +145,10 @@ section {
   position: absolute;
   margin-right: 20, 078125%;
   margin-left: 53%;
-  /* margin-top: 68px; */
+  margin-top: 68px;
   width: 339px;
   height: 748px;
+  border: solid 2px red;
 }
 
 .social {
@@ -361,6 +371,7 @@ section {
   align-items: center; */
   text-align: center;
 }
+
 .pole_wrap {
   display: flex;
   align-items: center;
@@ -372,6 +383,7 @@ section {
   border-radius: 7px;
   box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48);
 }
+
 .pole {
   /* margin-left: 13px; */
   font-size: 18px;
@@ -385,6 +397,7 @@ section {
   border-radius: 0px 7px 7px 0px;
   /* box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48); */
 }
+
 /* .pole:active {
   border: none;
   outline: none;
