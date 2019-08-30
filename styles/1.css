@@ -132,6 +132,10 @@ section {
   display: flex;
   justify-content: center;
 }
+.button:hover {
+  background: #ffbe00;
+  box-shadow: 0px 0px 60px orange;
+}
 
 .button_text {
   font-family: Montserrat;
@@ -437,6 +441,10 @@ section {
   align-items: center;
   border: 0px;
   margin: 30px 88px 0px;
+}
+.button2:hover {
+  background: green;
+  box-shadow: 0px 0px 60px green;
 }
 
 .text_z {
