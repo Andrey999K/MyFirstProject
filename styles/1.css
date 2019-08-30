@@ -19,12 +19,14 @@ header {
   /* border: solid 2px blue; */
   background: url(../images/Photo.svg) no-repeat bottom right 136px;
 }
+
 #header_top {
   width: 100%;
   /* border: solid 2px yellow; */
   display: flex;
   justify-content: space-between;
 }
+
 section {
   max-width: 1039px;
   width: 100%;
@@ -132,6 +134,7 @@ section {
   display: flex;
   justify-content: center;
 }
+
 .button:hover {
   background: #ffbe00;
   box-shadow: 0px 0px 60px orange;
@@ -287,7 +290,10 @@ section {
 .portfolio_niz {
   display: flex;
   justify-content: center;
-  margin-bottom: 183px;
+  align-items: center;
+  margin: 0 auto 183px;
+  width: 61px;
+  height: 10px;
   /* background-color: yellow; */
 }
 
@@ -442,6 +448,7 @@ section {
   border: 0px;
   margin: 30px 88px 0px;
 }
+
 .button2:hover {
   background: green;
   box-shadow: 0px 0px 60px green;
@@ -475,4 +482,20 @@ section {
 .vvod_pole {
   font-size: 18px;
   color: #bcb7b7;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  border: solid 1px #ECC910;
+  margin: auto;
+}
+
+.circle1 {
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #ECC910;
+  margin: auto;
 }
