@@ -483,3 +483,9 @@ section {
   background-color: #ECC910;
   margin: auto;
 }
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
