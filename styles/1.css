@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  margin: 68px auto 0px;
+  margin: 68px auto 0;
   /* display: flex; */
   /* justify-content: space-between; */
   /* background-color: blue; */
@@ -31,7 +31,7 @@ section {
   max-width: 1039px;
   width: 100%;
   height: 474px;
-  margin: 0px auto;
+  margin: 0 auto;
   /* display: flex; */
   /* background-color: tomato; */
   line-height: 28px;
@@ -61,7 +61,8 @@ section {
   margin-bottom: 52px;
 }
 
-#a3 {
+#a3,
+#a4 {
   display: flex;
 }
 
@@ -88,7 +89,7 @@ section {
   width: 100%;
   width: 274px;
   height: 154px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   /* border: solid 2px red; */
   display: flex;
   flex-direction: column;
@@ -97,7 +98,7 @@ section {
 .portfolio {
   width: 459px;
   height: 391px;
-  /* margin-right: 0px; */
+  /* margin-right: 0; */
   margin-left: 85px;
   /* display: flex;
   flex-direction: column; */
@@ -120,16 +121,16 @@ section {
   line-height: 23px;
   display: flex;
   /* flex-direction: column; */
-  margin: 45px 0px;
+  margin: 45px 0;
 }
 
 .button {
   width: 285px;
   height: 54px;
   background: linear-gradient(180deg, #f10707 0%, #00ff0a 0.01%, #ffbe00 100%);
-  box-shadow: 0px 0px 20px #00ff0a;
+  box-shadow: 0 0 20px #00ff0a;
   border-radius: 15px;
-  border: 0px;
+  border: 0;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -141,6 +142,7 @@ section {
 }
 
 .button_text {
+  margin-left: 1px;
   font-family: Montserrat;
   font-weight: bold;
   font-size: 12px;
@@ -166,17 +168,7 @@ section {
   justify-content: space-between;
 }
 
-.vk {
-  width: 14.31px;
-  height: 8.16px;
-}
-
-.facebook {
-  width: 7px;
-  height: 13px;
-}
-
-.zagolovok {
+.headline {
   width: 100%;
   /* height: 40px; */
   font-weight: bold;
@@ -184,11 +176,11 @@ section {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  margin: 0px auto 55px auto;
+  margin: 0 auto 55px auto;
   /* background-color: orange; */
 }
 
-.zagolovok1 {
+.headline1 {
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 14px;
@@ -200,11 +192,6 @@ section {
   text-align: left;
 }
 
-.image_portfolio {
-  width: 495px;
-  height: 372px;
-}
-
 .Text_portfolio1 {
   width: 459px;
   height: 28px;
@@ -214,7 +201,7 @@ section {
 }
 
 #w1 {
-  width: 185px;
+  /* width: 185px; */
   height: 67px;
   display: flex;
   /* border: solid 2px red; */
@@ -225,7 +212,7 @@ section {
   height: 67px;
   display: flex;
   /* border: solid 2px red; */
-  /* margin: -71px 0px 29px 63px; */
+  /* margin: -71px 0 29px 63px; */
 }
 
 #w3 {
@@ -238,7 +225,7 @@ section {
 #w4 {
   display: flex;
   justify-content: space-between;
-  margin: 29px 0px;
+  margin: 29px 0;
 }
 
 .w5 {
@@ -256,7 +243,7 @@ section {
 }
 
 .Text_portfolio3 {
-  width: 120px;
+  /* width: 120px; */
   height: 28px;
   font-size: 18px;
 }
@@ -325,10 +312,6 @@ section {
   margin-bottom: 28px;
 }
 
-#c3 {
-  display: flex;
-}
-
 .vvod {
   background-color: #ffbe00;
   margin-left: 197px;
@@ -347,10 +330,10 @@ section {
 #mail {
   width: 101px;
   height: 67px;
-  right: 0px;
+  right: 0;
   justify-content: flex-end;
   /* margin-left: 143px; */
-  /* margin-right: 0px; */
+  /* margin-right: 0; */
 }
 
 #soc {
@@ -358,13 +341,13 @@ section {
   height: 67px;
   margin-bottom: 9px;
   /* margin-top: 95px;
-  margin-left: 0px; */
+  margin-left: 0; */
 }
 
 .Socseti {
   width: 147.46px;
   height: 27px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -388,10 +371,10 @@ section {
   padding-left: 10px;
   width: 282px;
   height: 59px;
-  margin: 0px 88px 15px;
+  margin: 0 88px 15px;
   background: #ffffff;
   border-radius: 7px;
-  box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48);
+  box-shadow: inset 0 4px 20px rgba(96, 91, 91, 0.48);
 }
 
 .pole {
@@ -404,8 +387,8 @@ section {
   background: #ffffff;
   border: none;
   outline: none;
-  border-radius: 0px 7px 7px 0px;
-  /* box-shadow: inset 0px 4px 20px rgba(96, 91, 91, 0.48); */
+  border-radius: 0 7px 7px 0;
+  /* box-shadow: inset 0 4px 20px rgba(96, 91, 91, 0.48); */
 }
 
 /* .pole:active {
@@ -445,16 +428,17 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0px;
-  margin: 30px 88px 0px;
+  border: 0;
+  margin: 30px 88px 0;
 }
 
 .button2:hover {
   background: green;
-  box-shadow: 0px 0px 60px green;
+  box-shadow: 0 0 60px green;
 }
 
 .text_z {
+  margin-left: 4px;
   color: #ffffff;
   font-weight: bold;
   font-size: 12px;
