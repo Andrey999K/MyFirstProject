@@ -4,9 +4,9 @@ function slider(element) {
         document.getElementById('s2').className = "circle";
         document.getElementById('s3').className = "circle";
         document.getElementById('s4').className = "circle";
-        document.getElementById('a3').innerHTML = "<img width=\"495\" height=\"372\" src=\"images/image2.svg\" alt=\"\">" +
-            "<div class=\"portfolio\">" +
-            "  <span class=\"Text_portfolio1\">Сайт строительной фирмы \"Велстрой\"</span>" +
+        document.getElementById('portfolio').innerHTML = "<img width=\"521\" height=\"391\" src=\"images/image2.svg\" alt=\"\" class=\"image_portfolio\">" +
+            "<div class=\"portfolio_right\">" +
+            "  <p class=\"Text_portfolio1\">Сайт строительной фирмы \"Велстрой\"</p>" +
             "  <div id=\"w4\">" +
             "    <div id=\"w1\">" +
             "      <img width=\"50.86\" height=\"52\" src=\"images/Sroki.svg\" alt=\"\">" +
@@ -41,9 +41,9 @@ function slider(element) {
         document.getElementById('s2').className = "circle1";
         document.getElementById('s3').className = "circle";
         document.getElementById('s4').className = "circle";
-        document.getElementById('a3').innerHTML = "<img width=\"495\" height=\"372\" src=\"images/image3.svg\" alt=\"\">" +
-            "<div class=\"portfolio\">" +
-            "  <span class=\"Text_portfolio1\">Интернет магазин электросамокатов</span>" +
+        document.getElementById('portfolio').innerHTML = "<img width=\"521\" height=\"391\" src=\"images/image3.svg\" alt=\"\" class=\"image_portfolio\">" +
+            "<div class=\"portfolio_right\">" +
+            "  <p class=\"Text_portfolio1\">Интернет магазин электросамокатов</p>" +
             "  <div id=\"w4\">" +
             "    <div id=\"w1\">" +
             "      <img width=\"50.86\" height=\"52\" src=\"images/Sroki.svg\" alt=\"\">" +
@@ -76,9 +76,9 @@ function slider(element) {
         document.getElementById('s2').className = "circle";
         document.getElementById('s3').className = "circle1";
         document.getElementById('s4').className = "circle";
-        document.getElementById('a3').innerHTML = "<img width=\"495\" height=\"372\" src=\"images/image4.svg\" alt=\"\">" +
-            "<div class=\"portfolio\">" +
-            "  <span class=\"Text_portfolio1\" style=\"font-size: 20px;\">Сайт мобильного приложения \"Fithness Online\"</span>" +
+        document.getElementById('portfolio').innerHTML = "<img width=\"521\" height=\"391\" src=\"images/image4.svg\" alt=\"\" class=\"image_portfolio\">" +
+            "<div class=\"portfolio_right\">" +
+            "  <p class=\"Text_portfolio1\">Сайт мобильного приложения \"Fithness Online\"</p>" +
             "  <div id=\"w4\">" +
             "    <div id=\"w1\">" +
             "      <img width=\"50.86\" height=\"52\" src=\"images/Sroki.svg\" alt=\"\">" +
@@ -109,9 +109,9 @@ function slider(element) {
         document.getElementById('s2').className = "circle";
         document.getElementById('s3').className = "circle";
         document.getElementById('s4').className = "circle1";
-        document.getElementById('a3').innerHTML = "<img width=\"495\" height=\"372\" src=\"images/image5.svg\" alt=\"\">" +
-            "<div class=\"portfolio\" style=\"background-color: gren;\">" +
-            "  <span class=\"Text_portfolio1\" style=\"font-size: 20px;\">Сайт поддержки бездомных животных</span>" +
+        document.getElementById('portfolio').innerHTML = "<img width=\"521\" height=\"391\" src=\"images/image5.svg\" alt=\"\" class=\"image_portfolio\">" +
+            "<div class=\"portfolio_right\">" +
+            "  <p class=\"Text_portfolio1\">Сайт поддержки бездомных животных</p>" +
             "  <div id=\"w4\">" +
             "    <div id=\"w1\">" +
             "      <img width=\"50.86\" height=\"52\" src=\"images/Sroki.svg\" alt=\"\">" +
