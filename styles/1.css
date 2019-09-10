@@ -304,7 +304,7 @@ section {
 
 #c1 {
   width: 384px;
-  height: 198px;
+  min-height: 198px;
   /* display: flex; */
   /* background-color: blue; */
 }
@@ -329,6 +329,11 @@ section {
   height: 67px;
   display: flex;
   flex-direction: column;
+}
+
+#phone .Text1 a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #mail {
@@ -495,23 +500,29 @@ button:focus {
 }
 
 @media (max-width: 1200px) {
+
   header,
   section {
     max-width: 960px;
   }
+
   .image_portfolio {
     width: 449px;
     height: 336px;
   }
+
   .portfolio_right {
     margin-left: 50px;
   }
+
   #c2 {
     justify-content: initial;
   }
+
   #mail {
     margin-left: 100px;
   }
+
   .vvod {
     margin-left: 100px;
   }
@@ -521,74 +532,91 @@ button:focus {
   body {
     height: 3300px;
   }
+
   .cards {
     padding-left: 140px;
     padding-right: 140px;
   }
+
   #portfolio {
     flex-direction: column;
     align-items: center;
   }
+
   .portfolio_right {
     margin-top: 50px;
     margin-left: 0;
   }
+
   .contacts {
     width: 90%;
     /* background-color: yellow; */
   }
+
   #a1 {
     margin-bottom: 0px;
   }
+
   .portfolio_niz {
     margin-bottom: 100px;
   }
+
   #mail {
     margin-left: 80px;
   }
 }
 
 @media (max-width: 990px) {
+
   header,
   section {
     max-width: 760px;
   }
+
   .cards {
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .contacts {
     width: 90%;
     /* background-color: red; */
   }
+
   #c2 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
   }
+
   #c1 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   #mail {
     margin-left: 0;
     margin-bottom: 30px;
     text-align: center;
   }
+
   #phone {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
   }
+
   #soc {
     margin-bottom: 30px;
     text-align: center;
     /* padding-left: 50px; */
   }
+
   .vvod {
     margin-left: 30px;
   }
+
   #a4 {
     padding-left: 40px;
     padding-right: 40px;
@@ -599,6 +627,7 @@ button:focus {
   body {
     height: 4295px;
   }
+
   header,
   section {
     max-width: 90%;
