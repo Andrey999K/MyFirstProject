@@ -1,199 +1,279 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <title>Мой сайт</title>
+    <meta charset="UTF-8" />
+    <!-- <meta name="keywords" content="важные, ключевые, слова"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <meta name="description" content="краткое описание"> -->
+    <link rel="stylesheet" href="styles/1.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>Мой сайт</title>
-  <meta charset="UTF-8">
-  <!-- <meta name="keywords" content="важные, ключевые, слова"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <meta name="description" content="краткое описание"> -->
-  <link rel="stylesheet" href="styles/1.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div id="header_top">
-      <img width="136" height="65" src="images/logo.svg" alt="">
-      <div class="social">
-        <a href="https://vk.com/andrey999k"><img width="14.31" height="8.16" src="images/Vk.svg" alt=""></a>
-        <a href="#"><img width="12.67" height="8.03" class="behance" src="images/Behance.svg" alt=""></a>
-        <a href="#"><img width="10.63" height="10.63" src="images/Instagram.svg" alt=""></a>
-        <a href="#"><img width="7" height="13" src="images/Facebook.svg" alt=""></a>
-      </div>
-    </div>
-    <div class="about_me">
-
-      <h1 class="Text_name">Андрей Кутузов</h1>
-      <p class="characteristica">Начинающий фрилансер</p>
-      <button class="button">
-        <img width="23" height="21.11" src="images/Chat.svg" alt="">
-        <span class="button_text">Бесплатная консультация</span>
-      </button>
-    </div>
-  </header>
-
-
-
-  <h3 class="headline">Со мной удобно работать</h3>
-
-  <section id="a1">
-    <div class="cards" id="q1">
-      <div class="card">
-        <img width="49.94" height="50" src="images/Group-1.svg" alt="">
-        <div class="section3">
-          <span class="headline1">По договору</span>
-          <span class="text">Предоставляю все документы для бухгалтерии: договоры, счета и
-            акты. Работаю как ИП без НДС.</span>
+  <body>
+    <header>
+      <div id="header_top">
+        <picture>
+          <!-- <source media="(min-width: 601px)" srcset="/" /> -->
+          <source media="(max-width: 600px)" srcset="/images/logo600.svg" />
+          <img src="/images/logo.svg" alt="" />
+        </picture>
+        <!-- <img
+          width="136"
+          height="65"
+          src="images/logo.svg"
+          alt=""
+          class="logo"
+        /> -->
+        <div class="social">
+          <a href="https://vk.com/andrey999k"
+            ><img width="14.31" height="8.16" src="images/Vk.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img
+              width="12.67"
+              height="8.03"
+              class="behance"
+              src="images/Behance.svg"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img width="10.63" height="10.63" src="images/Instagram.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img width="7" height="13" src="images/Facebook.svg" alt=""
+          /></a>
         </div>
       </div>
-      <div class="card">
-        <img width="50" height="46.22" src="images/Group-2.svg" alt="">
-        <div class="section3">
-          <span class="headline1">Точно в срок</span>
-          <span class="text">В договоре прописана моя ответственность за срок проекта. Если
-            просрочу - плачу неустойку.</span>
-        </div>
+      <div class="about_me">
+        <h1 class="Text_name">Андрей Кутузов</h1>
+        <p class="characteristica">Начинающий фрилансер</p>
+        <button class="button">
+          <img width="23" height="21.11" src="images/Chat.svg" alt="" />
+          <span class="button_text">Бесплатная консультация</span>
+        </button>
       </div>
-      <div class="card">
-        <img width="44.05" height="50" src="images/Group-3.svg" alt="">
-        <div class="section3">
-          <span class="headline1">Ценнник под вас</span>
-          <span class="text">Если у вас не типовой проект сделаю расчёт цены за работу при
-            вас. Объясню как складывается цена.</span>
-        </div>
-      </div>
-      <div class="card">
-        <img width="50" height="49.98" src="images/Group2.svg" alt="">
-        <div class="section3">
-          <span class="headline1">Промежуточные итоги</span>
-          <span class="text">Показываю работу поэтапно, а не в последний момент перед крайним
-            сроком.</span>
-        </div>
-      </div>
-      <div class="card">
-        <img width="50" height="50" src="images/Group.svg" alt="">
-        <div class="section3">
-          <span class="headline1">Хостинг и домен</span>
-          <span class="text">Если мы договорились о цене проекта, в неё входит всё: домен и
-            хостинг на год + SSL сертификат.</span>
-        </div>
-      </div>
-      <div class="card">
-        <img width="50" height="50" src="images/Vector.svg" alt="">
-        <div class="section3">
-          <span class="headline1">Не брошу после сдачи</span>
-          <span class="text">Научу вас или вашего сотрудника пользоваться сайтом, запишу
-            видео-инструкциии.</span>
-        </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
+    <h3 class="headline">Со мной удобно работать</h3>
 
+    <section id="a1">
+      <div class="cards" id="q1">
+        <div class="card">
+          <img width="49.94" height="50" src="images/Group-1.svg" alt="" />
+          <div class="section3">
+            <span class="headline1">По договору</span>
+            <span class="text"
+              >Предоставляю все документы для бухгалтерии: договоры, счета и
+              акты. Работаю как ИП без НДС.</span
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img width="50" height="46.22" src="images/Group-2.svg" alt="" />
+          <div class="section3">
+            <span class="headline1">Точно в срок</span>
+            <span class="text"
+              >В договоре прописана моя ответственность за срок проекта. Если
+              просрочу - плачу неустойку.</span
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img width="44.05" height="50" src="images/Group-3.svg" alt="" />
+          <div class="section3">
+            <span class="headline1">Ценнник под вас</span>
+            <span class="text"
+              >Если у вас не типовой проект сделаю расчёт цены за работу при
+              вас. Объясню как складывается цена.</span
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img width="50" height="49.98" src="images/Group2.svg" alt="" />
+          <div class="section3">
+            <span class="headline1">Промежуточные итоги</span>
+            <span class="text"
+              >Показываю работу поэтапно, а не в последний момент перед крайним
+              сроком.</span
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img width="50" height="50" src="images/Group.svg" alt="" />
+          <div class="section3">
+            <span class="headline1">Хостинг и домен</span>
+            <span class="text"
+              >Если мы договорились о цене проекта, в неё входит всё: домен и
+              хостинг на год + SSL сертификат.</span
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img width="50" height="50" src="images/Vector.svg" alt="" />
+          <div class="section3">
+            <span class="headline1">Не брошу после сдачи</span>
+            <span class="text"
+              >Научу вас или вашего сотрудника пользоваться сайтом, запишу
+              видео-инструкциии.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="a2">
-    <h1 class="headline">Портфолио</h1>
-    <div id="portfolio">
-      <img width="521" height="391" src="images/image2.svg" alt="" class="image_portfolio">
-      <div class="portfolio_right">
-        <p class="Text_portfolio1">Сайт строительной фирмы "Велстрой"</p>
-        <div id="w4">
-          <div id="w1">
-            <img width="50.86" height="52" src="images/Sroki.svg" alt="">
-            <div class="w5">
-              <span class="Text_portfolio2">Сроки</span>
-              <span class="Text_portfolio3">4 рабочих дня</span>
+    <section id="a2">
+      <h1 class="headline">Портфолио</h1>
+      <div id="portfolio">
+        <img
+          width="521"
+          height="391"
+          src="images/image2.svg"
+          alt=""
+          class="image_portfolio"
+        />
+        <div class="portfolio_right">
+          <p class="Text_portfolio1">Сайт строительной фирмы "Велстрой"</p>
+          <div id="w4">
+            <div id="w1">
+              <img width="50.86" height="52" src="images/Sroki.svg" alt="" />
+              <div class="w5">
+                <span class="Text_portfolio2">Сроки</span>
+                <span class="Text_portfolio3">4 рабочих дня</span>
+              </div>
+            </div>
+            <div id="w2">
+              <img width="52" height="52.03" src="images/Money.svg" alt="" />
+              <div class="w5">
+                <span class="Text_portfolio4">Стоимость</span>
+                <span class="Text_portfolio5">14 000 рублей</span>
+              </div>
             </div>
           </div>
-          <div id="w2">
-            <img width="52" height="52.03" src="images/Money.svg" alt="">
+          <div id="w3">
+            <img
+              width="50.24"
+              height="51.64"
+              id="w6"
+              src="images/Otziv.svg"
+              alt=""
+            />
             <div class="w5">
-              <span class="Text_portfolio4">Стоимость</span>
-              <span class="Text_portfolio5">14 000 рублей</span>
+              <span class="Text_portfolio6">Отзыв клиента</span>
+              <span class="Text_portfolio7"
+                >Мне понравилось работать с Андреем, потому что он всё время был
+                на связи и предлагал свои решения, когда мы заходили в тупик с
+                дизайном. Мне нужны был и закрывающие документы для бухгалтерии
+                и Андрей тот редкий фрилансер, у которого с документами всё в
+                порядке.</span
+              >
             </div>
           </div>
         </div>
-        <div id="w3">
-          <img width="50.24" height="51.64" id="w6" src="images/Otziv.svg" alt="">
-          <div class="w5">
-            <span class="Text_portfolio6">Отзыв клиента</span>
-            <span class="Text_portfolio7">Мне понравилось работать с Андреем, потому что он всё время был
-              на связи и предлагал свои решения, когда мы заходили в тупик с
-              дизайном. Мне нужны был и закрывающие документы для бухгалтерии
-              и Андрей тот редкий фрилансер, у которого с документами всё в
-              порядке.</span>
-          </div>
-        </div>
       </div>
+    </section>
+
+    <div class="portfolio_niz">
+      <!-- <img src="images/Group3.svg" alt="" /> -->
+      <div id="s1" class="circle1" onmouseover="slider('s1')"></div>
+      <div id="s2" class="circle" onmouseover="slider('s2')"></div>
+      <div id="s3" class="circle" onmouseover="slider('s3')"></div>
+      <div id="s4" class="circle" onmouseover="slider('s4')"></div>
     </div>
-  </section>
 
-  <div class="portfolio_niz">
-    <!-- <img src="images/Group3.svg" alt="" /> -->
-    <div id="s1" class="circle1" onmouseover="slider('s1')"></div>
-    <div id="s2" class="circle" onmouseover="slider('s2')"></div>
-    <div id="s3" class="circle" onmouseover="slider('s3')"></div>
-    <div id="s4" class="circle" onmouseover="slider('s4')"></div>
-  </div>
-
-
-
-  <section class="contacts">
-    <h1 class="headline">Свяжитесь со мной</h1>
-    <div id="a4">
-      <div id="c1">
-        <div id="c2">
-          <div id="phone">
-            <span class="Text">Телефон</span>
-            <span class="Text1"><a href="tel:+7 999 987 65 43">+7 999 987 65 43</a></span>
+    <section class="contacts">
+      <h1 class="headline">Свяжитесь со мной</h1>
+      <div id="a4">
+        <div id="c1">
+          <div id="c2">
+            <div id="phone">
+              <span class="Text">Телефон</span>
+              <span class="Text1"
+                ><a href="tel:+7 999 987 65 43">+7 999 987 65 43</a></span
+              >
+            </div>
+            <div id="mail">
+              <span class="Text">Почта</span>
+              <span class="Text1">aaa@mail.ru</span>
+            </div>
           </div>
-          <div id="mail">
-            <span class="Text">Почта</span>
-            <span class="Text1">aaa@mail.ru</span>
+          <div id="soc">
+            <span class="Text">Соцсети</span>
+            <span class="Text1">vk.com/id1</span>
+          </div>
+          <div class="Socseti">
+            <a href="https://vk.com/andrey999k"
+              ><img width="29.71" height="16.95" src="images/Vk1.svg" alt=""
+            /></a>
+            <a href="/"
+              ><img
+                width="26.32"
+                height="16.67"
+                src="images/Behance1.svg"
+                alt=""
+            /></a>
+            <a href="/"
+              ><img
+                width="22.07"
+                height="22.07"
+                src="images/Instagram1.svg"
+                alt=""
+            /></a>
+            <a href="/"
+              ><img width="14.54" height="27" src="images/Facebook1.svg" alt=""
+            /></a>
           </div>
         </div>
-        <div id="soc">
-          <span class="Text">Соцсети</span>
-          <span class="Text1">vk.com/id1</span>
-        </div>
-        <div class="Socseti">
-          <a href="https://vk.com/andrey999k"><img width="29.71" height="16.95" src="images/Vk1.svg" alt=""></a>
-          <a href="/"><img width="26.32" height="16.67" src="images/Behance1.svg" alt=""></a>
-          <a href="/"><img width="22.07" height="22.07" src="images/Instagram1.svg" alt=""></a>
-          <a href="/"><img width="14.54" height="27" src="images/Facebook1.svg" alt=""></a>
-        </div>
-      </div>
-      <div class="vvod">
-        <span class="vvod_text">Оставьте заявку, я с вами свяжусь и мы обсудим, что нужно
-          сделать</span>
-        <!-- <div class="pole">
+
+        <div class="vvod">
+          <span class="vvod_text"
+            >Оставьте заявку, я с вами свяжусь и мы обсудим, что нужно
+            сделать</span
+          >
+          <!-- <div class="pole">
             <img class="name" src="images/Name.svg">
             <span class="vvod_pole">Ваше имя</span>
           </div> -->
-        <div class="pole_wrap">
-          <img width="30" height="31" src="images/Name.svg" style="margin-right: 18px" alt="">
-          <input type="text" class="pole" placeholder="Ваше имя">
-        </div>
-        <div class="pole_wrap">
-          <img width="35" height="35" src="images/Tel.svg" style="margin-right: 13px" alt="">
-          <input type="text" class="pole" placeholder="Ваш телефон">
-        </div>
-        <!-- <div class="pole">
+          <div class="pole_wrap">
+            <img
+              width="30"
+              height="31"
+              src="images/Name.svg"
+              style="margin-right: 18px"
+              alt=""
+            />
+            <input type="text" class="pole" placeholder="Ваше имя" />
+          </div>
+          <div class="pole_wrap">
+            <img
+              width="35"
+              height="35"
+              src="images/Tel.svg"
+              style="margin-right: 13px"
+              alt=""
+            />
+            <input type="text" class="pole" placeholder="Ваш телефон" />
+          </div>
+          <!-- <div class="pole">
             <img class="tel" src="images/Tel.svg" />
             <span class="vvod_pole">Ваш телефон</span>
           </div> -->
-        <button class="button2">
-          <img width="22.77" height="22.82" src="images/Request.svg" alt="">
-          <span class="text_z">ОСТАВИТЬ ЗАЯВКУ</span>
-        </button>
+          <button class="button2">
+            <img width="22.77" height="22.82" src="images/Request.svg" alt="" />
+            <span class="text_z">ОСТАВИТЬ ЗАЯВКУ</span>
+          </button>
+        </div>
       </div>
-    </div>
-  </section>
-  <footer></footer>
-  <script src="scripts/scripts.js"></script>
-</body>
-
+    </section>
+    <footer></footer>
+    <script src="scripts/scripts.js"></script>
+  </body>
 </html>

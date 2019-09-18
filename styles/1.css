@@ -3,7 +3,7 @@ body {
   color: #ffffff;
   font-family: Roboto;
   /* line-height: 28px; */
-  height: 2870px;
+  /* height: 2870px; */
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,8 @@ header {
   width: 100%;
   height: 748px;
   /* border: solid 2px blue; */
-  background: url(../images/Photo.svg) no-repeat bottom right 136px;
+  /* background: url(../images/Photo.svg) no-repeat bottom right 136px; */
+  /* visibility: hidden; */
 }
 
 #header_top {
@@ -30,7 +31,7 @@ header {
 section {
   max-width: 1039px;
   width: 100%;
-  min-height: 474px;
+  /* min-height: 474px; */
   margin: 0 auto;
   /* display: flex; */
   /* background-color: tomato; */
@@ -442,8 +443,11 @@ section {
 }
 
 .button2:hover {
-  background: green;
-  box-shadow: 0 0 60px green;
+  background: #313131;
+}
+
+.button2:active {
+  background: #444444;
 }
 
 .text_z {
@@ -499,8 +503,11 @@ button:focus {
   outline: none;
 }
 
-@media (max-width: 1200px) {
+.contacts {
+  margin-bottom: 150px;
+}
 
+@media (max-width: 1200px) {
   header,
   section {
     max-width: 960px;
@@ -530,12 +537,45 @@ button:focus {
 
 @media (max-width: 1140px) {
   body {
-    height: 3300px;
+    /* height: 3050px; */
+  }
+
+  header,
+  section,
+  .contacts {
+    max-width: 690px;
+  }
+
+  header {
+    background: none;
+    height: 350px;
+    margin-bottom: 50px;
+  }
+
+  .headline {
+    max-width: 630px;
+  }
+
+  .about_me {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Text_name {
+    margin-bottom: 0;
+  }
+
+  .characteristica {
+    margin: 20px 0;
   }
 
   .cards {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   #portfolio {
@@ -548,39 +588,12 @@ button:focus {
     margin-left: 0;
   }
 
-  .contacts {
-    width: 90%;
-    /* background-color: yellow; */
-  }
-
   #a1 {
     margin-bottom: 0px;
   }
 
   .portfolio_niz {
     margin-bottom: 100px;
-  }
-
-  #mail {
-    margin-left: 80px;
-  }
-}
-
-@media (max-width: 990px) {
-
-  header,
-  section {
-    max-width: 760px;
-  }
-
-  .cards {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .contacts {
-    width: 90%;
-    /* background-color: red; */
   }
 
   #c2 {
@@ -614,23 +627,48 @@ button:focus {
   }
 
   .vvod {
+    min-width: 400px;
     margin-left: 30px;
   }
 
   #a4 {
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+  }
+
+  .vvod_text {
+    margin-top: 18px;
+  }
+
+  .pole_wrap {
+    margin: 0 auto 15px;
+  }
+
+  .button2 {
+    margin: 30px auto 0px;
+  }
+}
+
+@media (max-width: 990px) {
+  /* header,
+  section {
+    max-width: 760px;
+  } */
+
+  .cards {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
 @media (max-width: 760px) {
   body {
-    height: 4295px;
+    /* height: 3830px; */
   }
 
   header,
   section {
-    max-width: 90%;
+    max-width: 480px;
     background: none;
   }
 
@@ -641,13 +679,7 @@ button:focus {
   }
 
   .Text_name {
-    margin-bottom: 5px;
     text-align: center;
-  }
-
-  .characteristica {
-    margin-top: 5px;
-    margin-bottom: 20px;
   }
 
   .cards {
@@ -671,14 +703,19 @@ button:focus {
 
   #c1 {
     width: 450px;
-    height: 110px;
+    min-height: 110px;
     flex-direction: row;
     /* align-items: center;
     text-align: center; */
     justify-content: center;
     margin: auto;
+    margin-bottom: 25px;
     /* background-color: blue; */
     flex-wrap: wrap;
+  }
+
+  section .headline {
+    margin-bottom: 40px;
   }
 
   #c2 {
@@ -718,5 +755,171 @@ button:focus {
 
   .contacts {
     min-width: 458px;
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  section,
+  .headline {
+    max-width: 350px;
+  }
+
+  header {
+    min-height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .about_me {
+    min-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Text_name {
+    margin-top: 0;
+  }
+
+  .headline {
+    text-align: center;
+  }
+
+  .image_portfolio {
+    width: 341px;
+    height: 255px;
+  }
+}
+
+@media (max-width: 450px) {
+  .body {
+    /* min-height: initial;
+    height: initial; */
+  }
+
+  header,
+  .about_me {
+    height: initial;
+  }
+
+  #a2 {
+    min-height: 1070px;
+  }
+
+  #portfolio {
+    min-height: 1000px;
+  }
+
+  .portfolio_right {
+    max-width: 350px;
+    min-height: 650px;
+  }
+
+  .Text_portfolio1 {
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #w4 {
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    margin: 29px auto 0px;
+  }
+
+  #w1,
+  #w2 {
+    min-height: 130px;
+    width: 190px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #w3 {
+    max-width: 350px;
+    min-height: 350px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
+  .w5 {
+    margin: 20px auto 0px;
+  }
+
+  .Text_portfolio6 {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .Text_portfolio7 {
+    max-width: 350px;
+  }
+
+  .Text_portfolio2,
+  .Text_portfolio3,
+  .Text_portfolio4,
+  .Text_portfolio6 {
+    text-align: center;
+    margin: auto;
+  }
+
+  .contacts,
+  #a4,
+  #c1 {
+    max-width: 350px;
+    min-width: initial;
+  }
+
+  .contacts {
+    margin-bottom: 100px;
+  }
+
+  #mail {
+    margin-right: 0;
+  }
+
+  #soc {
+    margin-left: 11px;
+  }
+
+  .Socseti {
+    width: 130px;
+    margin-left: 55px;
+  }
+
+  .vvod {
+    max-width: 250px;
+    min-width: initial;
+    padding: 30px 40px 40px;
+    height: initial;
+  }
+
+  .vvod_text {
+    margin: initial;
+    margin-bottom: 10px;
+    line-height: initial;
+  }
+
+  .pole_wrap {
+    max-width: 250px;
+    width: initial;
+    min-width: initial;
+    height: 50px;
+    margin: 0 auto 10px;
+  }
+
+  .pole {
+    max-width: 175px;
+    /* border: solid 2px red; */
+  }
+
+  .button2 {
+    width: 250px;
+    height: 50px;
+    margin-top: 0px;
   }
 }
