@@ -641,10 +641,11 @@ button:focus {
 }
 
 @media (max-width: 990px) {
-  /* header,
-  section {
-    max-width: 760px;
-  } */
+  header,
+  section,
+  .contacts {
+    max-width: 600px;
+  }
 
   .cards {
     padding-left: 0px;
