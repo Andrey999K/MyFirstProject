@@ -856,14 +856,27 @@ button:focus {
   #c1 {
     max-width: 350px;
     min-width: initial;
+    flex-direction: column;
+  }
+
+  #c2 {
+    margin-bottom: 20px;
+  }
+
+  #soc {
+    display: none;
   }
 
   .contacts {
     margin-bottom: 100px;
   }
 
+  #phone {
+    margin-right: 55px;
+  }
+
   #mail {
-    margin-right: 0;
+    margin-right: 10px;
   }
 
   #soc {
@@ -871,8 +884,9 @@ button:focus {
   }
 
   .Socseti {
-    width: 130px;
-    margin-left: 55px;
+    width: 230px;
+    /* margin-left: 75px; */
+    margin-top: 0;
   }
 
   .vvod {
