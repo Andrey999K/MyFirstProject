@@ -897,7 +897,8 @@ button:focus {
   }
 
   .pole {
-    max-width: 175px;
+    max-width: 170px;
+    height: 15px;
     /* border: solid 2px red; */
   }
 
