@@ -508,6 +508,7 @@ button:focus {
 }
 
 @media (max-width: 1200px) {
+
   header,
   section {
     max-width: 960px;
@@ -536,6 +537,7 @@ button:focus {
 }
 
 @media (max-width: 1140px) {
+
   header,
   section,
   .contacts {
@@ -641,6 +643,7 @@ button:focus {
 }
 
 @media (max-width: 990px) {
+
   header,
   section,
   .contacts {
@@ -654,6 +657,7 @@ button:focus {
 }
 
 @media (max-width: 760px) {
+
   header,
   section {
     max-width: 480px;
@@ -733,6 +737,7 @@ button:focus {
   }
 
   .vvod {
+    max-width: 400px;
     margin: auto;
   }
 
@@ -748,6 +753,7 @@ button:focus {
 }
 
 @media (max-width: 600px) {
+
   header,
   section,
   .headline {
@@ -780,6 +786,7 @@ button:focus {
 }
 
 @media (max-width: 450px) {
+
   header,
   .about_me {
     height: initial;
@@ -924,6 +931,7 @@ button:focus {
 }
 
 @media (max-width: 320px) {
+
   header,
   section,
   .contacts,
