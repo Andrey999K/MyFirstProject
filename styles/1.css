@@ -508,7 +508,6 @@ button:focus {
 }
 
 @media (max-width: 1200px) {
-
   header,
   section {
     max-width: 960px;
@@ -537,7 +536,6 @@ button:focus {
 }
 
 @media (max-width: 1140px) {
-
   header,
   section,
   .contacts {
@@ -643,7 +641,6 @@ button:focus {
 }
 
 @media (max-width: 990px) {
-
   header,
   section,
   .contacts {
@@ -657,7 +654,6 @@ button:focus {
 }
 
 @media (max-width: 760px) {
-
   header,
   section {
     max-width: 480px;
@@ -753,7 +749,6 @@ button:focus {
 }
 
 @media (max-width: 600px) {
-
   header,
   section,
   .headline {
@@ -786,23 +781,46 @@ button:focus {
 }
 
 @media (max-width: 450px) {
-
   header,
   .about_me {
     height: initial;
   }
 
   #a2 {
-    min-height: 1070px;
+    min-height: 600px;
+    margin-bottom: 5px;
+  }
+
+  #a2 .headline {
+    margin-bottom: 15px;
   }
 
   #portfolio {
-    min-height: 1000px;
+    min-height: 500px;
+  }
+
+  .image_portfolio {
+    width: 266px;
+    height: 200px;
   }
 
   .portfolio_right {
     max-width: 350px;
-    min-height: 650px;
+    min-height: initial;
+    height: 345px;
+    margin-top: 10px;
+  }
+
+  .Text_portfolio2,
+  .Text_portfolio4,
+  .Text_portfolio6 {
+    font-size: 20px;
+  }
+
+  .Text_portfolio3,
+  .Text_portfolio5,
+  .Text_portfolio7 {
+    font-size: 15px;
   }
 
   .Text_portfolio1 {
@@ -813,36 +831,34 @@ button:focus {
 
   #w4 {
     max-width: 350px;
-    flex-direction: column;
     align-items: center;
-    margin: 29px auto 0px;
+    margin: 0 auto 0px;
   }
 
   #w1,
   #w2 {
-    min-height: 130px;
+    min-height: 90px;
     width: 190px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
   #w3 {
     max-width: 350px;
-    min-height: 350px;
-    flex-direction: column;
-    align-items: center;
+    min-height: initial;
+    height: 200px;
     margin: auto;
+    line-height: 20px;
   }
 
   .w5 {
-    margin: 20px auto 0px;
+    margin: 0 0 0 10px;
   }
 
   .Text_portfolio6 {
     max-width: 350px;
-    margin: auto;
+    margin-bottom: 10px;
     text-align: center;
   }
 
@@ -852,8 +868,7 @@ button:focus {
 
   .Text_portfolio2,
   .Text_portfolio3,
-  .Text_portfolio4,
-  .Text_portfolio6 {
+  .Text_portfolio4 {
     text-align: center;
     margin: auto;
   }
@@ -931,7 +946,6 @@ button:focus {
 }
 
 @media (max-width: 320px) {
-
   header,
   section,
   .contacts,
@@ -943,21 +957,16 @@ button:focus {
   }
 
   #a2 {
-    min-height: 1110px;
+    min-height: 810px;
     margin-bottom: 0;
   }
 
   #portfolio {
-    min-height: 1030px;
+    min-height: 730px;
   }
 
   .portfolio_right {
-    min-height: 755px;
-  }
-
-  .image_portfolio {
-    width: 280px;
-    height: 210px;
+    min-height: 455px;
   }
 
   #c1 {
