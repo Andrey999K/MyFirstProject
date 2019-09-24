@@ -508,6 +508,7 @@ button:focus {
 }
 
 @media (max-width: 1200px) {
+
   header,
   section {
     max-width: 960px;
@@ -536,6 +537,7 @@ button:focus {
 }
 
 @media (max-width: 1140px) {
+
   header,
   section,
   .contacts {
@@ -641,6 +643,7 @@ button:focus {
 }
 
 @media (max-width: 990px) {
+
   header,
   section,
   .contacts {
@@ -654,6 +657,7 @@ button:focus {
 }
 
 @media (max-width: 760px) {
+
   header,
   section {
     max-width: 480px;
@@ -749,6 +753,7 @@ button:focus {
 }
 
 @media (max-width: 600px) {
+
   header,
   section,
   .headline {
@@ -781,6 +786,7 @@ button:focus {
 }
 
 @media (max-width: 450px) {
+
   header,
   .about_me {
     height: initial;
@@ -946,6 +952,7 @@ button:focus {
 }
 
 @media (max-width: 320px) {
+
   header,
   section,
   .contacts,
@@ -956,17 +963,59 @@ button:focus {
     max-width: 280px;
   }
 
+  #w4,
+  #w3 {
+    line-height: 16px;
+  }
+
   #a2 {
-    min-height: 810px;
+    min-height: 410px;
     margin-bottom: 0;
   }
 
   #portfolio {
-    min-height: 730px;
+    min-height: 430px;
+  }
+
+  .image_portfolio {
+    width: 220px;
+    height: 165px;
   }
 
   .portfolio_right {
-    min-height: 455px;
+    height: 330px;
+  }
+
+  .Text_portfolio1 {
+    font-size: 20px;
+  }
+
+  #w1,
+  #w2 {
+    height: 70px;
+  }
+
+  .w5 {
+    margin: 0 0 0 5px;
+  }
+
+  .Text_portfolio2,
+  .Text_portfolio4,
+  .Text_portfolio6 {
+    font-size: 16px;
+    height: initial;
+    margin-bottom: 3px;
+  }
+
+  .Text_portfolio2,
+  .Text_portfolio3 {
+    width: 60px;
+  }
+
+  .Text_portfolio3,
+  .Text_portfolio5,
+  .Text_portfolio7 {
+    font-size: 12px;
   }
 
   #c1 {
