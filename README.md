@@ -1,1 +1,1 @@
-<https://github.com/Andrey999K/MyFirstProject/settings>
+<https://andrey999k.github.io/MyFirstProject/>
